@@ -64,7 +64,7 @@ def is_triangle(points, bbox):
     return len(approx) == 3
 
 # Load images
-folderPath = r"D:\painter\Header"
+folderPath = r"D:\\Virutal Painter\\Header"
 images = os.listdir(folderPath)
 imageList = [cv2.imread(f'{folderPath}/{imPath}') for imPath in images]
 
